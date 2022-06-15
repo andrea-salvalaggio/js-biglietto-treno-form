@@ -1,8 +1,8 @@
 // const numberKm = parseInt('Quanti kilometri vuoi percorrere?');
 // const userAge = parseInt('Quanti anni hai?');
 
-// const numberKm = document.getElementById('number-km');
-// const userAge = document.getElementById('user-age').innerHTML;
+const numberKm = document.getElementById('number-km').value;
+const userAge = document.getElementById('user-age').value;
 const submitButton = document.getElementById('submit-button');
 // const pricePerKm = 0.26;
 // let ticketPrice = (numberKm * pricePerKm);
@@ -20,7 +20,9 @@ const submitButton = document.getElementById('submit-button');
 // }
 
 submitButton.addEventListener('click', function () {
-    console.log('ciao')
-    // const numberKm = (document.getElementById('number-km').value);
-    // console.log('numberkm');
+    console.log('ciao');
+
+    console.log(document.getElementById('number-km').value);
+
+    console.log(document.getElementById('user-age').value);
 })
